@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXUS PC — магазин компьютерных комплектующих и игровых компьютеров.">
+    <title>NEXUS PC — Technology Without Limits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                NEXUS<span>PC</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Главная</a>
+                <a href="#catalog">Каталог</a>
+                <a href="#about">О нас</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <button class="cart-button" id="cartButton">
+                Корзина <span id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-background"></div>
+
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        PERFORMANCE. PRECISION. POWER.
+                    </div>
+
+                    <h1>
+                        ТЕХНОЛОГИИ<br>
+                        <span>БЕЗ ГРАНИЦ.</span>
+                    </h1>
+
+                    <p>
+                        Комплектующие и игровые системы,
+                        созданные для тех, кто не привык
+                        ограничивать свои возможности.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#catalog" class="button button-primary">
+                            Смотреть каталог <span>↗</span>
+                        </a>
+
+                        <a href="#about" class="button button-secondary">
+                            О компании
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div>
+                            <strong>100%</strong>
+                            <span>Внимание к деталям</span>
+                        </div>
+                        <div>
+                            <strong>PC</strong>
+                            <span>Мир технологий</span>
+                        </div>
+                        <div>
+                            <strong>∞</strong>
+                            <span>Возможности</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=85"
+                            alt="Игровой компьютер"
+                        >
+                    </div>
+                    <div class="hero-image-label">
+                        <span>01 / NEXUS COLLECTION</span>
+                        <span>BUILT FOR POWER</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-bottom-line">
+                <span>EST. NEXUS PC</span>
+                <span>DESIGNED FOR PERFORMANCE</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+        </section>
+
+        <!-- TRUST STRIP -->
+        <section class="trust-strip">
+            <div class="container trust-grid">
+                <div>01 — Качественные комплектующие</div>
+                <div>02 — Современные технологии</div>
+                <div>03 — Подбор под любые задачи</div>
+                <div>04 — Мир компьютерного железа</div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES -->
+        <section class="categories section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-label">01 / EXPLORE</span>
+                        <h2>НАПРАВЛЕНИЯ <span>КАТАЛОГА</span></h2>
+                    </div>
+                    <p>
+                        Всё необходимое для создания
+                        мощной компьютерной системы.
+                    </p>
+                </div>
+
+                <div class="category-grid">
+                    <a href="#catalog" class="category-card category-large">
+                        <img
+                            src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=1000&q=85"
+                            alt="Видеокарты"
+                        >
+                        <div class="category-overlay">
+                            <span>01 / GRAPHICS</span>
+                            <h3>ВИДЕОКАРТЫ</h3>
+                            <span class="category-arrow">↗</span>
+                        </div>
+                    </a>
+
+                    <a href="#catalog" class="category-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&fit=crop&w=900&q=85"
+                            alt="Процессоры"
+                        >
+                        <div class="category-overlay">
+                            <span>02 / PROCESSING</span>
+                            <h3>ПРОЦЕССОРЫ</h3>
+                            <span class="category-arrow">↗</span>
+                        </div>
+                    </a>
+
+                    <a href="#catalog" class="category-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=900&q=85"
+                            alt="Компьютеры"
+                        >
+                        <div class="category-overlay">
+                            <span>03 / SYSTEMS</span>
+                            <h3>КОМПЬЮТЕРЫ</h3>
+                            <span class="category-arrow">↗</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATALOG -->
+        <section class="catalog section-padding" id="catalog">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-label">02 / PRODUCTS</span>
+                        <h2>ВЫБРАННОЕ <span>ЖЕЛЕЗО</span></h2>
+                    </div>
+                    <p>
+                        Подборка комплектующих
+                        для твоей следующей системы.
+                    </p>
+                </div>
+
+                <div class="catalog-toolbar">
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Поиск комплектующих..."
+                    >
+
+                    <select id="categoryFilter">
+                        <option value="all">Все категории</option>
+                        <option value="gpu">Видеокарты</option>
+                        <option value="cpu">Процессоры</option>
+                        <option value="pc">Компьютеры</option>
+                    </select>
+                </div>
+
+                <div class="products-grid" id="productsGrid"></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section-padding" id="about">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <img
+                        src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1100&q=85"
+                        alt="Рабочее компьютерное пространство"
+                    >
+                    <div class="about-image-caption">
+                        NEXUS PC / HARDWARE CULTURE
+                    </div>
+                </div>
+
+                <div class="about-copy">
+                    <span class="section-label">03 / WHO WE ARE</span>
+                    <h2>
+                        НЕ ПРОСТО<br>
+                        КОМПЬЮТЕРЫ.<br>
+                        <span>ТВОИ ВОЗМОЖНОСТИ.</span>
+                    </h2>
+
+                    <p>
+                        NEXUS PC — концепция магазина,
+                        созданного вокруг технологий,
+                        производительности и современного
+                        компьютерного оборудования.
+                    </p>
+
+                    <p>
+                        Мы стремимся сделать выбор комплектующих
+                        понятным, удобным и доступным.
+                    </p>
+
+                    <a href="#contacts" class="text-link">
+                        СВЯЗАТЬСЯ С НАМИ ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-label">04 / THE NEXUS STANDARD</span>
+                        <h2>НАШ <span>ПОДХОД</span></h2>
+                    </div>
+                </div>
+
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <span>01</span>
+                        <div class="feature-icon">◈</div>
+                        <h3>ПРОИЗВОДИТЕЛЬНОСТЬ</h3>
+                        <p>Подбор комплектующих с учётом мощности и совместимости.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <span>02</span>
+                        <div class="feature-icon">⌘</div>
+                        <h3>ТЕХНОЛОГИИ</h3>
+                        <p>Современное компьютерное оборудование и решения.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <span>03</span>
+                        <div class="feature-icon">◎</div>
+                        <h3>ИНДИВИДУАЛЬНОСТЬ</h3>
+                        <p>Компьютер должен соответствовать именно твоим задачам.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTS -->
+        <section class="contacts section-padding" id="contacts">
+            <div class="container contacts-grid">
+                <div>
+                    <span class="section-label">05 / GET IN TOUCH</span>
+                    <h2>
+                        ЕСТЬ<br>
+                        <span>ВОПРОСЫ?</span>
+                    </h2>
+                    <p>
+                        Оставь сообщение, и мы сможем
+                        обсудить подбор комплектующих
+                        или интересующий тебя вопрос.
+                    </p>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="contactName">ТВОЁ ИМЯ</label>
+                    <input
+                        type="text"
+                        id="contactName"
+                        placeholder="Как к тебе обращаться?"
+                        required
+                    >
+
+                    <label for="contactEmail">EMAIL</label>
+                    <input
+                        type="email"
+                        id="contactEmail"
+                        placeholder="example@mail.com"
+                        required
+                    >
+
+                    <label for="contactMessage">СООБЩЕНИЕ</label>
+                    <textarea
+                        id="contactMessage"
+                        placeholder="Расскажи, что тебя интересует..."
+                        rows="4"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="button button-primary">
+                        ОТПРАВИТЬ СООБЩЕНИЕ ↗
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <a href="#home" class="logo">NEXUS<span>PC</span></a>
+            <p>TECHNOLOGY WITHOUT LIMITS.</p>
+            <a href="#home">НАВЕРХ ↑</a>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© 2026 NEXUS PC. DEMO PROJECT.</span>
+            <span>BUILT FOR THE FUTURE.</span>
+        </div>
+    </footer>
+
+    <!-- CART OVERLAY -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- CART PANEL -->
+    <aside class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h2>ТВОЯ КОРЗИНА</h2>
+            <button id="closeCart" type="button">✕</button>
+        </div>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>ИТОГО</span>
+                <strong id="cartTotal">0 ₽</strong>
+            </div>
+
+            <button id="checkoutButton" class="button button-primary" type="button">
+                ОФОРМИТЬ ЗАКАЗ
+            </button>
+
+            <button id="clearCart" class="clear-cart" type="button">
+                Очистить корзину
+            </button>
+        </div>
+    </aside>
+
+    <script src="products-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
